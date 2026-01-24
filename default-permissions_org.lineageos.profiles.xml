@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <exceptions>
-    <exception package="org.lineageos.profiles">
+    <exception package="com.android.profiles">
         <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
     </exception>
 </exceptions>

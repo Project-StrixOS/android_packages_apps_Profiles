@@ -23,6 +23,10 @@ android_app {
     required: [
         "default-permissions_org.lineageos.profiles",
     ],
+
+    aaptflags: [
+        "--rename-manifest-package", "com.android.profiles",
+    ],
 }
 
 prebuilt_etc {
@@ -30,5 +34,5 @@ prebuilt_etc {
     system_ext_specific: true,
     src: "default-permissions_org.lineageos.profiles.xml",
     sub_dir: "default-permissions",
-    filename_from_src: true,
+    filename: "dp_org.los.profiles.xml",
 }

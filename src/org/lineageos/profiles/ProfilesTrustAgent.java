@@ -24,9 +24,9 @@ import android.os.UserHandle;
 import android.service.trust.TrustAgentService;
 import android.util.ArraySet;
 import android.util.Log;
-import lineageos.app.Profile;
-import lineageos.app.ProfileManager;
-import lineageos.providers.LineageSettings;
+import strixos.app.Profile;
+import strixos.app.ProfileManager;
+import strixos.providers.LineageSettings;
 
 import java.lang.ref.WeakReference;
 import java.util.List;

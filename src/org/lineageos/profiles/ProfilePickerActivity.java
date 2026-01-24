@@ -17,8 +17,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import lineageos.app.Profile;
-import lineageos.app.ProfileManager;
+import strixos.app.Profile;
+import strixos.app.ProfileManager;
 
 import com.android.internal.app.AlertActivity;
 import com.android.internal.app.AlertController;
